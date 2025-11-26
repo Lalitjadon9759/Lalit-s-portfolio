@@ -78,7 +78,7 @@ export default function Hero() {
 
           <motion.a
             whileHover={{ scale: 1.05 }}
-            href="/Resume-Lalit.pdf"
+            href="https://drive.google.com/file/d/1DpsWEANnlQ-s-obi6jeDpIcj_71ql0Yd/view?usp=sharing"
             download
             className="flex items-center gap-2 px-8 py-3 border border-primary text-primary rounded-xl"
           >
@@ -88,8 +88,8 @@ export default function Hero() {
 
         {/* Social Icons */}
         <div className="flex gap-8 mt-10 text-2xl">
-          <a href="https://github.com" className="hover:text-primary transition"><FaGithub /></a>
-          <a href="https://linkedin.com" className="hover:text-primary transition"><FaLinkedin /></a>
+          <a href="https://github.com/Lalitjadon9759" className="hover:text-primary transition"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/lalit-jadoun-a077342b3/" className="hover:text-primary transition"><FaLinkedin /></a>
         </div>
       </motion.div>
     </section>
