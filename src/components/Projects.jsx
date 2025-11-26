@@ -1,43 +1,27 @@
 import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
+
 const projects = [
   {
-    title: "HyperBharat – Local Commerce Super App",
-    image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4",
-    description:
-      "AI-powered hyperlocal commerce platform enabling real-time inventory, delivery, and booking for kirana stores & services.",
-    tech: ["React", "Node.js", "MongoDB", "Tailwind"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "MovieVerse – Real-time Movie Streaming App",
-    image: "https://images.unsplash.com/photo-1517602302552-471fe67acf66",
-    description:
-      "Realtime Firebase movie streaming platform with modern UI, search, filtering, pagination, watchlist & authentication.",
-    tech: ["React", "Firebase", "TMDB API"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Doctor Booking System",
-    image: "https://images.unsplash.com/photo-1550831107-1553da8c8464",
-    description:
-      "Doctor appointment scheduling app with calendar UI, real-time availability, CRUD, and smooth UX animations.",
-    tech: ["MERN", "JWT", "Tailwind"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Book Management MERN System",
+    title: "Home Workout Planner",
     image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
     description:
-      "Complete management system enabling book borrow, return, add, update, and delete workflows with clean UI.",
-    tech: ["React", "Node", "Express", "MongoDB"],
-    github: "#",
-    live: "#",
+      "“A simple and interactive Home Workout Planner built using HTML, CSS, and JavaScript that allows users to generate personalized workout routines, track daily exercises, and stay consistent with their fitness goals—all without any equipment.”",
+    tech: ["HTML","CSS","JAVASCRIPT","FIREBASE"],
+    github: "https://github.com/Lalitjadon9759/HomeWorkoutPlanner",
+    live: "https://homeworkoutplanner.netlify.app/",
   },
+  {
+    title: "Realestate- listing of some property",
+    image: "https://images.unsplash.com/photo-1517602302552-471fe67acf66",
+    description:
+      "“A Real Estate Management System designed to help users browse, search, and compare properties with ease. The project includes features like property listings, filters, detailed property pages, and contact options. It improves the property-buying experience by providing a clean UI, structured data, and smooth navigation.”",
+    tech: ["React", "Firebase","tailwind"],
+    github: "https://github.com/Lalitjadon9759/RealEstate1/tree/main/my-app",
+    live: "https://friendly-stroopwafel-beeceb.netlify.app/",
+  },
+
 ];
 
 const container = {
