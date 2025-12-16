@@ -78,7 +78,7 @@ export default function Hero() {
 
           <motion.a
             whileHover={{ scale: 1.05 }}
-            href="https://drive.google.com/file/d/1DpsWEANnlQ-s-obi6jeDpIcj_71ql0Yd/view?usp=sharing"
+            href="https://drive.google.com/file/d/14boXM3W4eHJvDp5PbVtnoa4BmqDgIDGL/view?usp=drive_link"
             download
             className="flex items-center gap-2 px-8 py-3 border border-primary text-primary rounded-xl"
           >
